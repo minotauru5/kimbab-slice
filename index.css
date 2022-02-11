@@ -1,0 +1,78 @@
+
+#navigationBar {
+    flex-direction: row;
+}
+
+#navigationBar li a {
+    color:rgb(247, 56, 14);
+    padding: 2px;
+    border: 10px solid white;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    background-color: white;
+}
+nav {
+    margin-top: 16px;
+}
+#navigation li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#navigation ul {
+    display: flex;
+    flex-direction: row;
+    color:red;
+}
+
+#carouselSlides {
+    display:none;
+}
+
+img {
+    height: 500px;  
+    width: 500px; 
+}
+
+footer {
+    text-align: center;
+}
+
+.carouselWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: center;
+    justify-content: center;
+}
+
+.carouselContainer {
+    margin: 0 15px;
+}
+
+.carouselWrapper button {
+    font-size: 112px;
+    border: none;
+    background: transparent;
+}
+
+.carouselWrapper button:hover {
+    color:rgb(235, 108, 108);
+}
+
+body {
+    background-color:rgb(252, 242, 243); 
+}
+
+.menuItems{
+    font-family: fantasy;
+}
+
+.aboutUsInfo {
+    text-align: center;
+    font-size: medium;
+    font-family: fantasy;
+    margin:100px;
+    padding:100px;
+}
